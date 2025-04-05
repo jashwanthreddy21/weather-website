@@ -1,0 +1,13 @@
+.box{
+    border: 1px solid black;
+    margin : 100px 500px 50px 500px;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+#input{
+    margin: 10px 10px 20px 10px;
+}
+.result{
+    margin-left: 650px;
+    display: none;
+}
