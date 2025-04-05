@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Current Weather Section -->
+        <div class="weather-box">
+            <h2>Weather Report</h2>
+            <div class="location">
+                <h3 id="city">Loading...</h3>
+                <p id="date"></p>
+            </div>
+            <div class="current-weather">
+                <img id="weather-icon" src="" alt="Weather">
+                <h1 id="temperature">--°C</h1>
+                <h3 id="condition">---</h3>
+            </div>
+            <div class="details">
+                <p>Humidity: <span id="humidity">--%</span></p>
+            </div>
+        </div>
+
+        <!-- Air Quality Section -->
+        <div class="air-quality-box">
+            <h2>Air Quality Report</h2>
+            <div class="air-quality">
+                <p><b>CO (Carbon Monoxide): </b><span id="co">-- μg/m³</span></p>
+                <p><b>NO (Nitric Oxide): </b><span id="no">-- μg/m³</span></p>
+                <p><b>NO₂ (Nitrogen Dioxide): </b><span id="no2">-- μg/m³</span></p>
+                <p><b>O₃ (Ozone): </b><span id="o3">-- μg/m³</span></p>
+                <p><b>SO₂ (Sulfur Dioxide): </b><span id="so2">-- μg/m³</span></p>
+                <p><b>PM2.5 (Fine Particulate Matter): </b><span id="pm2_5">-- μg/m³</span></p>
+                <p><b>PM10 (Coarse Particulate Matter): </b><span id="pm10">-- μg/m³</span></p>
+                <p><b>NH₃ (Ammonia): </b><span id="nh3">-- μg/m³</span></p>
+            </div>
+        </div>
+
+        <!-- 7-Day Forecast Section -->
+        <div class="forecast-box">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-container" id="forecast-container">
+                <!-- JavaScript will populate this -->
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <p>Designed & Developed by <strong>N.Jashwanth Reddy</strong></p>
+            <p>
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/nandyala-jashwanth-reddy-49b4552bb/" target="_blank" >
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="footer-icon">
+                </a>
+                
+                <!-- Portfolio Icon -->
+                <a href="https://your-portfolio.com" target="_blank">
+                    <img src="https://png.pngtree.com/png-vector/20190226/ourmid/pngtree-vector-portfolio-icon-png-image_705750.jpg" alt="Portfolio" class="footer-icon">
+                </a>
+            </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
