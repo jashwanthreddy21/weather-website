@@ -1,6 +1,6 @@
 # 🌤️ Weather Report Website  
 
-### 📌 Live Demo: [Click Here](https://jashwanthreddy21.github.io/weather-website/)  
+### 📌 Live Demo: [Click Here](https://weather-website-kag0.onrender.com)  
 
 This is a **weather report website** that shows real-time weather conditions, air quality, and a **7-day weather forecast** for any location using a weather API.  
 
